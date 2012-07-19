@@ -40,7 +40,7 @@ if(BUILD_TESTING)
   include_directories("${QT_QTTEST_INCLUDE_DIR}")
 endif(BUILD_TESTING)
 # Build the UI
-set(hawt_SOURCES hawt_settings.cpp hawt.cpp)
+set(hawt_SOURCES hawt_settings.cpp hawt.cpp hawt_natives.cpp)
 set(hawt_HEADERS hawt_settings.h)
 set(hawt_UI hawt_settings.ui)
 set(hawt_QRC hawt.qrc)
