@@ -3,7 +3,7 @@
 #include <QDebug>
 
 void
-set_picture(QString path)
+set_wallpaper(QString path)
 {
 	qDebug() << path;
 }
