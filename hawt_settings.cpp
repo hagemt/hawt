@@ -33,15 +33,23 @@ void SettingsInterface::changeEvent(QEvent *e)
 
 void SettingsInterface::save_settings()
 {
+	// TODO persist all settings to INI
 	emit settings_changed();
 }
 
 void SettingsInterface::load_settings()
 {
-	
+	// TODO recover all settings from INI
 }
 
 void SettingsInterface::reset_settings()
 {
+	// TODO reset all form fields
+}
 
+void SettingsInterface::react(QAbstractButton *source)
+{
+	assert(source);
+	switch (source->) {
+	}	
 }

@@ -7,6 +7,8 @@
 #ifdef Q_WS_WIN
 #include <windows.h>
 #include <QSettings>
+#else
+#include <QDebug>
 #endif
 
 #include <QDir>

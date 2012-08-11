@@ -115,9 +115,9 @@
  <connections>
   <connection>
    <sender>buttonBox</sender>
-   <signal>accepted()</signal>
+   <signal>clicked(QAbstractButton *)</signal>
    <receiver>SettingsInterface</receiver>
-   <slot>save_settings()</slot>
+   <slot>button_pressed(QAbstractButton *)</slot>
    <hints>
     <hint type="sourcelabel">
      <x>31</x>
@@ -131,7 +131,6 @@
   </connection>
  </connections>
  <slots>
-  <slot>save_settings()</slot>
-  <slot>reset_settings()</slot>
+  <slot>button_pressed(QAbstractButton *)</slot>
  </slots>
 </ui>

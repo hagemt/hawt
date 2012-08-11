@@ -17,8 +17,7 @@ public:
 	~SettingsInterface();
 
 public slots:
-	void save_settings();
-	void reset_settings();
+	void react(QAbstractButton *);
 
 signals:
 	void settings_changed();
@@ -30,6 +29,8 @@ private:
 	Ui::SettingsInterface *ui;
 	QSettings settings;
 
+	void save_settings();
+	void reset_settings();
 	void load_settings();
 };
 
