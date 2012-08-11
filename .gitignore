@@ -1,7 +1,5 @@
 # Build directories
 build*/*
-.gitignore
-images/*
 
 # Compiled Object files
 *.slo
